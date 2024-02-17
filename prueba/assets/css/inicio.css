@@ -1,0 +1,42 @@
+
+header{
+  background-color: black;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+  #options{
+    color: white;
+    /*padding: 50px;*/
+
+  }
+
+}
+/*Tablets*/
+@media only screen and (min-width: 600px) {
+  #options{
+    color: white;
+    position:relative;
+    left: auto;
+  }
+}
+/*Mobile Phones*/
+@media only screen and (max-width: 768px) {
+  #options{
+    color: white;
+    position:relative;
+    left: auto;
+  }
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.tittle{
+margin-bottom: 120px;
+margin-top: 120px;
+margin-left: 120px;
+margin-right: 120px;
+}
